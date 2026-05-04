@@ -1,0 +1,22 @@
+{
+  "pretrained_model_path": "showlab/show-o-512x512",
+  "model_path": null,
+  "vq_model_name": "showlab/magvitv2",
+  "llm_model_path": "microsoft/phi-1_5",
+  "val_t2i_json": "./emoart_data/emoart_val_t2i.json",
+  "val_mmu_json": "./emoart_data/emoart_val_mmu.json",
+  "val_image_root": "../EmoArt-5k_local/emoart_val",
+  "output_dir": "eval_results/baseline",
+  "tasks": "mmu",
+  "max_new_tokens": 128,
+  "top_k": 1,
+  "mmu_batch_size": 4,
+  "t2i_batch_size": 4,
+  "guidance_scale": 1.75,
+  "generation_timesteps": 18,
+  "generation_temperature": 1.0,
+  "resolution": 512,
+  "num_vq_tokens": 1024,
+  "codebook_size": 8192,
+  "max_text_len": 381
+}
