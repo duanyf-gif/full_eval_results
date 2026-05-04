@@ -20,7 +20,6 @@
   - `t2i_images/` 中包含 1660 张生成图片。
 - `janus/emoart_janus_itfi/`
   - Janus-Pro-1B 使用 ITFI 后的 T2I 评测结果。
-  - 对应本地实验目录 `emoart_janus_itfi_layer21_22_23_top100_lam1p0_resumable`。
   - 包含 `t2i_results.json`、`eval_config.json`、运行日志和生成的 T2I 图片。
   - `t2i_images/` 中包含 1660 张生成图片。
 
