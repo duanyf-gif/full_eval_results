@@ -22,6 +22,10 @@
   - Janus-Pro-1B 使用 ITFI 后的 T2I 评测结果。
   - 包含 `t2i_results.json`、`eval_config.json`、运行日志和生成的 T2I 图片。
   - `t2i_images/` 中包含 1660 张生成图片。
+- `janus/topK100_lam1p2/`
+  - Janus-Pro-1B layer23 TopK=100、lambda=1.2 的 auto-tune 评测结果。
+  - 包含 `eval_config.json`、`t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1660 张生成图片。
 
 ## 目录结构
 
@@ -36,9 +40,13 @@
 |   |   |-- full_val_background.log
 |   |   |-- t2i_images/
 |   |   `-- t2i_results.json
-|   `-- emoart_janus_itfi/
+|   |-- emoart_janus_itfi/
 |       |-- eval_config.json
 |       |-- run_1600_score.log
+|       |-- t2i_images/
+|       `-- t2i_results.json
+|   `-- topK100_lam1p2/
+|       |-- eval_config.json
 |       |-- t2i_images/
 |       `-- t2i_results.json
 `-- show-o/
