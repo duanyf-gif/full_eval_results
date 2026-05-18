@@ -34,6 +34,14 @@
   - Janus-Pro-1B layer23 TopK=100、lambda=1.2 的 auto-tune 评测结果。
   - 包含 `eval_config.json`、`t2i_results.json` 和生成的 T2I 图片。
   - `t2i_images/` 中包含 1660 张生成图片。
+- `janus/ola_test_janus_baseline_full/`
+  - Janus-Pro-1B baseline 在 Artemis 数据集上的生图结果。
+  - 包含 `eval_config.json`、`t2i_results.json`、`run.log`、`scores/` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `janus/ola_test_janus_itfi_layer23_top100_lam1p2_full/`
+  - Janus-Pro-1B ITFI layer23 TopK=100、lambda=1.2 在 Artemis 数据集上的生图结果。
+  - 包含 `eval_config.json`、`t2i_results.json`、`run.log` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
 
 ## 目录结构
 
@@ -49,10 +57,21 @@
 |   |   |-- t2i_images/
 |   |   `-- t2i_results.json
 |   |-- emoart_janus_itfi/
-|       |-- eval_config.json
-|       |-- run_1600_score.log
-|       |-- t2i_images/
-|       `-- t2i_results.json
+|   |   |-- eval_config.json
+|   |   |-- run_1600_score.log
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
+|   |-- ola_test_janus_baseline_full/
+|   |   |-- eval_config.json
+|   |   |-- run.log
+|   |   |-- scores/
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
+|   |-- ola_test_janus_itfi_layer23_top100_lam1p2_full/
+|   |   |-- eval_config.json
+|   |   |-- run.log
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
 |   `-- topK100_lam1p2/
 |       |-- eval_config.json
 |       |-- t2i_images/
