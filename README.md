@@ -1,6 +1,6 @@
 # Full Eval Results
 
-本仓库用于存放 EmoArt 验证集上的完整生成结果、评测输出和验证集图片。
+本仓库用于存放 EmoArt 和 Artemis 数据集上的完整生成结果、评测输出和验证集图片。
 
 ## 目录说明
 
@@ -14,6 +14,14 @@
 - `show-o/itfi_layer23_top50_lam2p0/`
   - 使用 ITFI 神经元干预方法后的 Show-O T2I 评测结果。
   - `t2i_images/` 中包含 1660 张生成图片。
+- `show-o/ola_test_baseline/`
+  - Show-O baseline 在 Artemis 数据集上的生图结果。
+  - 包含 `eval_config.json`、`t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `show-o/ola_test_itfi_layer23_top50_lam2p0/`
+  - Show-O ITFI layer23 top50 lambda=2.0 在 Artemis 数据集上的生图结果。
+  - 包含 `eval_config.json`、`t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
 - `janus/emoart_janus_baseline_full_val/`
   - Janus-Pro-1B baseline 在 EmoArt full validation split 上的 T2I 评测结果。
   - 包含 `t2i_results.json`、`eval_config.json`、运行日志和生成的 T2I 图片。
@@ -56,7 +64,15 @@
     |   |-- mmu_results.json
     |   |-- t2i_images/
     |   `-- t2i_results.json
-    `-- itfi_layer23_top50_lam2p0/
+    |-- itfi_layer23_top50_lam2p0/
+    |   |-- eval_config.json
+    |   |-- t2i_images/
+    |   `-- t2i_results.json
+    |-- ola_test_baseline/
+    |   |-- eval_config.json
+    |   |-- t2i_images/
+    |   `-- t2i_results.json
+    `-- ola_test_itfi_layer23_top50_lam2p0/
         |-- eval_config.json
         |-- t2i_images/
         `-- t2i_results.json
