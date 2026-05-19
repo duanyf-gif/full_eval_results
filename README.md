@@ -42,6 +42,10 @@
   - Janus-Pro-1B ITFI layer23 TopK=100、lambda=1.2 在 Artemis 数据集上的生图结果。
   - 包含 `eval_config.json`、`t2i_results.json`、`run.log` 和生成的 T2I 图片。
   - `t2i_images/` 中包含 1487 张生成图片。
+- `janus/ola_test_janus_itfi_layer21_22_23_top100_lam1p0_full/`
+  - Janus-Pro-1B ITFI layer21/22/23 TopK=100、lambda=1.0 在 Artemis 数据集上的生图结果。
+  - 包含 `eval_config.json`、`t2i_results.json`、`run.log` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
 
 ## 目录结构
 
@@ -68,6 +72,11 @@
 |   |   |-- t2i_images/
 |   |   `-- t2i_results.json
 |   |-- ola_test_janus_itfi_layer23_top100_lam1p2_full/
+|   |   |-- eval_config.json
+|   |   |-- run.log
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
+|   |-- ola_test_janus_itfi_layer21_22_23_top100_lam1p0_full/
 |   |   |-- eval_config.json
 |   |   |-- run.log
 |   |   |-- t2i_images/
