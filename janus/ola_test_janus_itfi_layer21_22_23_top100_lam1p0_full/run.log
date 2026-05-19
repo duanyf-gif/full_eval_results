@@ -1,0 +1,43 @@
+Python version is above 3.10, patching the collections module.
+  Layer 21: selected 100 neurons (from 100 valid candidates)
+  Layer 22: selected 100 neurons (from 100 valid candidates)
+  Layer 23: selected 100 neurons (from 100 valid candidates)
+
+============================================================
+[Janus T2I] Start OLA test evaluation
+============================================================
+[Data] Source rows: 1487
+[Data] Samples selected: 1487
+[Range] start_index=0, end_index=None
+[Mode] amplify
+[Output] Result dir: /root/autodl-tmp/Show-o/janus-pro-1B/Janus/brushstroke_janus/eval_results/ola_test_janus_itfi_layer21_22_23_top100_lam1p0_full
+[ITFI] neurons_file: /root/autodl-tmp/Show-o/janus-pro-1B/Janus/brushstroke_janus/outputs_full/neuron_probe/brushstroke_neurons.json
+[ITFI] selected_layers: [21, 22, 23]
+[ITFI] top_k_per_layer: 100
+[ITFI] active_range: all
+[ITFI] amplify_lambda: 1.0
+[Resume] skip_existing: True
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/root/miniconda3/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+[1/1487] idx=0 :: Abstract_Expressionism
+[2/1487] idx=1 :: Abstract_Expressionism
+[3/1487] idx=2 :: Abstract_Expressionism
+[4/1487] idx=3 :: Abstract_Expressionism
+[5/1487] idx=4 :: Abstract_Expressionism
+[6/1487] idx=5 :: Abstract_Expressionism
+[7/1487] idx=6 :: Abstract_Expressionism
+[8/1487] idx=7 :: Abstract_Expressionism
+[9/1487] idx=8 :: Abstract_Expressionism
+[10/1487] idx=9 :: Abstract_Expressionism
+[11/1487] idx=10 :: Abstract_Expressionism
+[12/1487] idx=11 :: Abstract_Expressionism
+[13/1487] idx=12 :: Abstract_Expressionism
+[14/1487] idx=13 :: Abstract_Expressionism
+[15/1487] idx=14 :: Abstract_Expressionism
+[16/1487] idx=15 :: Abstract_Expressionism
+[17/1487] idx=16 :: Abstract_Expressionism
+[18/1487] idx=17 :: Abstract_Expressionism
+[19/1487] idx=18 :: Abstract_Expressionism
+[20/1487] idx=19 :: Abstract_Expressionism
+[21/1487] idx=20 :: Abstract_Expressionism
