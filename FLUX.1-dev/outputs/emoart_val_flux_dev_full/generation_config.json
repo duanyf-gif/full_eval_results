@@ -1,0 +1,23 @@
+{
+  "dataset": "emoart",
+  "model_id": "/autodl-fs/data/FLUX.1-dev",
+  "emoart_json": "/root/autodl-tmp/Show-o/Show-O/emoart_data/emoart_val_t2i.json",
+  "artemis_json": "/root/autodl-tmp/Show-o/Artemis/ola_split/ola_test/annotation.json",
+  "output_root": "/root/autodl-tmp/Show-o/other_models/FLUX/outputs",
+  "cache_dir": "/root/autodl-tmp/Show-o/other_models/FLUX/hf_cache",
+  "start_index": 0,
+  "end_index": null,
+  "max_samples": null,
+  "skip_existing": true,
+  "batch_size": 1,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 24,
+  "guidance_scale": 3.5,
+  "seed": 42,
+  "max_sequence_length": 512,
+  "cpu_offload": true,
+  "source_sample_count": 1660,
+  "selected_sample_count": 1660,
+  "pending_sample_count": 1633
+}
