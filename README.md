@@ -7,6 +7,22 @@
 - `emoart_val/`
   - 本次评测使用的 EmoArt 验证集划分，也就是真实图片。
   - 包含 `annotation.json` 和按风格/类别组织的验证集图片。
+- `FLUX.1-dev/outputs/artemis_test_flux_dev_full/`
+  - FLUX.1-dev 在 Artemis 数据集上的生图结果。
+  - 包含 `t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `FLUX.1-dev/outputs/emoart_val_flux_dev_full/`
+  - FLUX.1-dev 在 EmoArt full validation split 上的生图结果。
+  - 包含 `generation_config.json`、`t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1660 张生成图片。
+- `SDv1.5/outputs/artemis_test_sd15/`
+  - Stable Diffusion v1.5 在 Artemis 数据集上的生图结果。
+  - 包含 `generation_config.json`、`t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `SDv1.5/outputs/emoart_val_sd15/`
+  - Stable Diffusion v1.5 在 EmoArt full validation split 上的生图结果。
+  - 包含 `generation_config.json`、`t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1660 张生成图片。
 - `show-o/baseline/`
   - Show-O baseline 评测结果。
   - 包含 `t2i_results.json`、`mmu_results.json`、`eval_config.json`、日志文件和生成的 T2I 图片。
@@ -55,6 +71,29 @@
 
 ```text
 .
+|-- FLUX.1-dev/
+|   `-- outputs/
+|       |-- artemis_test_flux_dev_full/
+|       |   |-- t2i_images/
+|       |   |-- t2i_results.json
+|       |   `-- t2i_results.partial.json
+|       `-- emoart_val_flux_dev_full/
+|           |-- generation_config.json
+|           |-- t2i_images/
+|           |-- t2i_results.json
+|           `-- t2i_results.partial.json
+|-- SDv1.5/
+|   `-- outputs/
+|       |-- artemis_test_sd15/
+|       |   |-- generation_config.json
+|       |   |-- t2i_images/
+|       |   |-- t2i_results.json
+|       |   `-- t2i_results.partial.json
+|       `-- emoart_val_sd15/
+|           |-- generation_config.json
+|           |-- t2i_images/
+|           |-- t2i_results.json
+|           `-- t2i_results.partial.json
 |-- emoart_val/
 |   |-- annotation.json
 |   `-- Images/
