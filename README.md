@@ -7,6 +7,10 @@
 - `emoart_val/`
   - 本次评测使用的 EmoArt 验证集划分，也就是真实图片。
   - 包含 `annotation.json` 和按风格/类别组织的验证集图片。
+- `Artemis/`
+  - 本次评测使用的 Artemis 测试集，也就是真实图片。
+  - 包含 `annotation.json` 和按风格组织的测试集图片。
+  - `Images/` 中包含 1487 张图片，覆盖 27 个风格目录。
 - `FLUX.1-dev/outputs/artemis_test_flux_dev_full/`
   - FLUX.1-dev 在 Artemis 数据集上的生图结果。
   - 包含 `t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
@@ -71,6 +75,9 @@
 
 ```text
 .
+|-- Artemis/
+|   |-- annotation.json
+|   `-- Images/
 |-- FLUX.1-dev/
 |   `-- outputs/
 |       |-- artemis_test_flux_dev_full/
