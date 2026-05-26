@@ -11,6 +11,9 @@
   - 本次评测使用的 Artemis 测试集，也就是真实图片。
   - 包含 `annotation.json` 和按风格组织的测试集图片。
   - `Images/` 中包含 1487 张图片，覆盖 27 个风格目录。
+- `score/`
+  - 评测打分脚本和提示词文件。
+  - 包含五维评分脚本、整体评分脚本、分数数值化脚本，以及对应的使用说明文档。
 - `FLUX.1-dev/outputs/artemis_test_flux_dev_full/`
   - FLUX.1-dev 在 Artemis 数据集上的生图结果。
   - 包含 `t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
@@ -78,6 +81,13 @@
 |-- Artemis/
 |   |-- annotation.json
 |   `-- Images/
+|-- score/
+|   |-- README.md
+|   |-- convert_scores_to_numeric.py
+|   |-- prompt.txt
+|   |-- score_images.py
+|   |-- score_total_images.py
+|   `-- total_eva_prompt
 |-- FLUX.1-dev/
 |   `-- outputs/
 |       |-- artemis_test_flux_dev_full/
