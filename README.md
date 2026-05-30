@@ -14,6 +14,26 @@
 - `score/`
   - 评测打分脚本和提示词文件。
   - 包含五维评分脚本、整体评分脚本、分数数值化脚本，以及对应的使用说明文档。
+- `Bagel/emoart/`
+  - Bagel 在 EmoArt full validation split 上的生图结果。
+  - 包含 `t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1660 张生成图片。
+- `TokenFlow/artemis/`
+  - TokenFlow 在 Artemis 数据集上的生图结果。
+  - 包含 `t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `TokenFlow/emoart/`
+  - TokenFlow 在 EmoArt full validation split 上的生图结果。
+  - 包含 `t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1660 张生成图片。
+- `BLIP3o/artemis/`
+  - BLIP3o 在 Artemis 数据集上的生图结果。
+  - 包含 `t2i_results.json`、生成的 T2I 图片，以及 `score/` 评分输出。
+  - `t2i_images/` 中包含 1487 张生成图片。
+- `BLIP3o/emoart/`
+  - BLIP3o 在 EmoArt full validation split 上的生图结果。
+  - 包含 `t2i_results.json`、生成的 T2I 图片，以及 `score/` 评分输出。
+  - `t2i_images/` 中包含 1660 张生成图片。
 - `FLUX.1-dev/outputs/artemis_test_flux_dev_full/`
   - FLUX.1-dev 在 Artemis 数据集上的生图结果。
   - 包含 `t2i_results.json`、`t2i_results.partial.json` 和生成的 T2I 图片。
@@ -81,6 +101,19 @@
 |-- Artemis/
 |   |-- annotation.json
 |   `-- Images/
+|-- Bagel/
+|   `-- emoart/
+|       |-- t2i_images/
+|       `-- t2i_results.json
+|-- BLIP3o/
+|   |-- artemis/
+|   |   |-- score/
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
+|   `-- emoart/
+|       |-- score/
+|       |-- t2i_images/
+|       `-- t2i_results.json
 |-- score/
 |   |-- README.md
 |   |-- convert_scores_to_numeric.py
@@ -88,6 +121,13 @@
 |   |-- score_images.py
 |   |-- score_total_images.py
 |   `-- total_eva_prompt
+|-- TokenFlow/
+|   |-- artemis/
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
+|   `-- emoart/
+|       |-- t2i_images/
+|       `-- t2i_results.json
 |-- FLUX.1-dev/
 |   `-- outputs/
 |       |-- artemis_test_flux_dev_full/
