@@ -18,6 +18,10 @@
   - Bagel 在 EmoArt full validation split 上的生图结果。
   - 包含 `t2i_results.json` 和生成的 T2I 图片。
   - `t2i_images/` 中包含 1660 张生成图片。
+- `Bagel/artemis/`
+  - Bagel 在 Artemis 数据集上的生图结果。
+  - 包含 `t2i_results.json` 和生成的 T2I 图片。
+  - `t2i_images/` 中包含 1487 张生成图片。
 - `TokenFlow/artemis/`
   - TokenFlow 在 Artemis 数据集上的生图结果。
   - 包含 `t2i_results.json` 和生成的 T2I 图片。
@@ -102,6 +106,9 @@
 |   |-- annotation.json
 |   `-- Images/
 |-- Bagel/
+|   |-- artemis/
+|   |   |-- t2i_images/
+|   |   `-- t2i_results.json
 |   `-- emoart/
 |       |-- t2i_images/
 |       `-- t2i_results.json
